@@ -21,7 +21,7 @@ body {
 .section-title {
     color: #181818;
     text-align: center;
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 700;
 }
 
@@ -191,9 +191,33 @@ main section {
 }
 
 /* Footer Styles */
-footer{
-    display:flex;
+footer {
+    display: flex;
+    gap: 100px;
     background: #fff8f3;
-    margin-top:100px;
+    margin-top: 100px;
     padding: 130px 200px;
 }
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links a {
+    margin-right: 24px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    background-color: #fff;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact input,
