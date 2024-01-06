@@ -220,4 +220,6 @@ textarea {
     width: 100%;
 }
 
-.contact input,
+footer .section-description {
+    text-align: left;
+}
