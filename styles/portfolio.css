@@ -92,10 +92,11 @@ nav a {
 .banner-title {
     font-size: 85px;
     font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .banner-description {
-    margin-top: ;
     max-width: 585px;
 }
 
@@ -104,5 +105,7 @@ nav a {
 /* about section styles */
 .about {
     padding: 130px;
+    border-radius: 10px;
+    background-color: #fff8f3;
     margin: 130px 0;
 }
