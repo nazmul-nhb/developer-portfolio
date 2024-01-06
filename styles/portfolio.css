@@ -96,11 +96,15 @@ nav a {
     margin-bottom: 20px;
 }
 
-.banner-description {
+/* .banner-description {
     max-width: 585px;
-}
+} */
 
 /* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 .about {
@@ -108,4 +112,15 @@ nav a {
     border-radius: 10px;
     background-color: #fff8f3;
     margin: 130px 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.about-info {
+    text-align: center;
+    
 }
